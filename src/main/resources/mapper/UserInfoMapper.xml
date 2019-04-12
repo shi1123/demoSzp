@@ -10,6 +10,8 @@
         id,user_name
     </sql>
 
+
+
     <select id="selectById" parameterType="java.lang.Integer" resultMap="BaseResultMap">
         select
         <include refid="Base_Column_List"/>
